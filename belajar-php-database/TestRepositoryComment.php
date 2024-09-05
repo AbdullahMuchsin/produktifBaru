@@ -9,6 +9,6 @@ require_once __DIR__ . "/Repository/CommentRepository.php";
 
 $comment = new CommentRepositoryImpl(getConnection());
 
-$data = $comment->getDataAll();
+$data = $comment->getDataById(2);
 
 var_dump($data);
