@@ -1,0 +1,26 @@
+{
+  "name": "abdullah-muchsin/belajar-php-mvc",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "AbdullahMuchsin\\BelajarPhpMvc\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AbdullahMuchsin\\BelajarPhpMvc\\": "test/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abdullah Muchsin",
+      "email": "90706883+AbdullahMuchsin@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0.0"
+  }
+}
